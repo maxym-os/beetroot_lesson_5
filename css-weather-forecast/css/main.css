@@ -29,8 +29,8 @@ ul {
     border: 6px solid white;
 }
 
-ul:hover {
-    opacity: 0.5;
+ul:hover li:not(:hover) { 
+    opacity: 0.3; 
 }
 
 li {
